@@ -1,11 +1,10 @@
 
 class user {
     index() {
-        return 'user/index.html'
+        return {}
     }
 
     login(data) {
-        // console.log(data);
         return 'user/login.html';
     }
 }

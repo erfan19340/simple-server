@@ -1,5 +1,5 @@
 {
-  "name": "complete-server",
+  "name": "uploader",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -12,6 +12,7 @@
   "dependencies": {
     "formidable": "^1.2.2",
     "mime-types": "^2.1.31",
+    "mv": "^2.1.1",
     "node-static": "^0.7.11",
     "qs": "^6.10.1"
   }
