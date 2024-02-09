@@ -1,5 +1,5 @@
 {
-  "name": "first-api",
+  "name": "complete-server",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "formidable": "^1.2.2",
     "mime-types": "^2.1.31",
+    "node-static": "^0.7.11",
     "qs": "^6.10.1"
   }
 }

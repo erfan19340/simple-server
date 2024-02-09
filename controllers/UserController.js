@@ -1,16 +1,14 @@
 
 class user {
-    index(data) {
-        console.log(data)
-        return {
-            name: "Mehrdad"
-        }
+    index() {
+        return 'user/index.html'
     }
 
-    sayHi() {
-        console.log('helllllo');
-        return 'this is sayHi function message'
+    login(data) {
+        // console.log(data);
+        return 'user/login.html';
     }
 }
 
 module.exports = user;
+
